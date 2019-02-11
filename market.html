@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DARKBERRY</title>
+
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Style the header */
+header {
+  background-color: #FFC0CB;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #40E0D0;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #FFC0CB;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+</style>
+</head>
+<body>
+	<!-- Marquee Scroll for animation --> 
+<header>DESIGN AND ALL ABOUT IT<marquee behavior="scroll" direction="left">
+	<img src="C:\Users\scott\Downloads\hunter17final1.png" align="top" width="150" height="150" alt="IMAGE">
+</marquee>
+</header>
+	<section>
+  <nav>
+    <ul>
+       <li><a href="design.html">Design</a></li>
+      <li><a href="concepts.html">Concepts</a></li>
+      <li><a href="market.html">Market</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+     <h1>MARKET</h1>
+    <p>The proposals are evaluated using a series of priorities, calculations, market valuations, and technical considerations. Different proposals are matched up against each other and one or more are selected for further development. Presentations are prepared.</p>
+
+  </article>
+</section>
+
+<footer>
+  <p>John Scott</p>
+<p>All rights reserved.</p>
+</footer>
+
+</body>
+</html>
